@@ -15,8 +15,8 @@ public class TestMaximum {
 
     @Test
     public void givenThreeNumbers_shouldReturn_maxNumber() {
-        Integer[] intvalue={1,2,3,4,5,6};
-        Integer[] intgerValue = maximumNumber.toPrint(intvalue);
-        Assert.assertArrayEquals(intvalue,intgerValue);
+        Float[] floatsValue={1.0f,2.0f};
+        Float[] intgerValue = maximumNumber.toPrint(floatsValue);
+        Assert.assertArrayEquals(floatsValue,intgerValue);
     }
 }

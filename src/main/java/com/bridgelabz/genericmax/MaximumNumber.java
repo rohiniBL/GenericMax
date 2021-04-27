@@ -7,4 +7,9 @@ public class MaximumNumber {
          return integersValue;
      }
 
+    //Float
+    public Float[] toPrint(Float[] floatsValue){
+        return floatsValue;
+    }
+
 }
